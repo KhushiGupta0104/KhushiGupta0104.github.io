@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushi Gupta | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet (Pure CSS - No JavaScript) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand">
+        <span class="brand-badge">KG</span>
+        <span class="brand-text">Khushi Gupta</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#responsibilities">Leadership</a></li>
+          <li><a href="#hobbies">Interests</a></li>
+          <li><a href="#contact" class="nav-contact-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container hero-wrapper">
+        
+        <div class="hero-text">
+          <div class="status-tag">
+            <span class="status-indicator"></span>
+            <span>B.Tech Undergraduate &bull; MIT Manipal</span>
+          </div>
+
+          <h1 class="hero-name">Khushi Gupta</h1>
+          <h2 class="hero-role">Full-Stack Web Developer &amp; CCE Student</h2>
+
+          <p class="hero-intro">
+            Computer and Communication Engineering undergraduate at <strong>Manipal Institute of Technology</strong>.
+            I build full-stack web applications using React, Node.js, Express, and MongoDB, with experience in
+            secure backend systems, sandboxed execution, and <strong>180+ LeetCode problems solved</strong>.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+
+          <!-- Social / Professional Links -->
+          <div class="social-bar">
+            <a href="https://github.com/KhushiGupta0104" target="_blank" rel="noopener noreferrer" class="social-chip">
+              <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/khushigupta4653" target="_blank" rel="noopener noreferrer" class="social-chip">
+              <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.59 1.59 0 1 0 0-3.18 1.59 1.59 0 0 0 0 3.18m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://leetcode.com/u/khushigupta4653/" target="_blank" rel="noopener noreferrer" class="social-chip">
+              <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.265a1.374 1.374 0 0 0-.416.973v.014c0 .356.137.712.416.973l5.406 5.827a1.374 1.374 0 0 0 1.922 0 1.374 1.374 0 0 0 0-1.946L9.67 7.245l4.774-4.859A1.374 1.374 0 0 0 13.483 0zm4.567 6.133a1.374 1.374 0 0 0-.961.438l-7.38 7.482a1.374 1.374 0 0 0 0 1.946l7.38 7.482a1.374 1.374 0 0 0 1.922 0 1.374 1.374 0 0 0 0-1.946l-6.419-6.509 6.419-6.509a1.374 1.374 0 0 0-.961-2.384zM3.44 14.475a1.374 1.374 0 0 0-.961.438L.438 16.953a1.374 1.374 0 0 0 0 1.946l2.041 2.04a1.374 1.374 0 0 0 1.922 0 1.374 1.374 0 0 0 0-1.946L2.984 17.58l1.417-1.159a1.374 1.374 0 0 0-.961-1.946z"/></svg>
+              <span>LeetCode</span>
+            </a>
+            <a href="mailto:khushigupta4653@gmail.com" class="social-chip">
+              <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Photograph -->
+        <div class="hero-photo-container">
+          <div class="photo-card">
+            <img src="profile.jpg" alt="Khushi Gupta Photograph" class="photo-img">
+            <div class="photo-caption">
+              <span class="caption-title">Khushi Gupta</span>
+              <span class="caption-subtitle">Adm. No. 240953466</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUICK STATS BAR -->
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat-box">
+          <span class="stat-number">8.31</span>
+          <span class="stat-label">B.Tech CGPA (MIT Manipal)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">180+</span>
+          <span class="stat-label">LeetCode Problems Solved</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">8+</span>
+          <span class="stat-label">Events Organized (ADG &amp; MIST)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">97% / 92%</span>
+          <span class="stat-label">Class X / XII Board Scores</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 01</span>
+          <h2 class="section-heading">About Me</h2>
+        </div>
+
+        <div class="about-content-layout">
+          <div class="about-main-text">
+            <p>
+              Hello! I'm <strong>Khushi Gupta</strong>, a 3rd-year undergraduate student studying 
+              <strong>Communication Engineering</strong> at <strong>Manipal Institute of Technology (MIT Manipal)</strong>, 
+              expected to graduate in May 2028.
+            </p>
+            <p>
+              I am passionate about full-stack web development, backend systems, and web security. Over the past couple of years, 
+              I have developed production-style web applications with <strong>React.js</strong>, <strong>Node.js</strong>, 
+              <strong>Express</strong>, and <strong>MongoDB</strong>. I am particularly interested in how backends can be secured against malicious 
+              code execution through AST (Abstract Syntax Tree) static analysis and sandboxed VM environments.
+            </p>
+            <p>
+              During my remote software engineering internship at <strong>EmergX</strong>, I worked on an AI-powered 
+              pre-interview proctoring system using browser media APIs (WebRTC, MediaRecorder API) and eye-gaze tracking. 
+              In addition to development, I solve algorithmic challenges regularly on LeetCode and contribute actively to student clubs at MIT Manipal.
+            </p>
+
+            <div class="about-summary-cards">
+              <div class="summary-card">
+                <span class="summary-card-icon">💻</span>
+                <h4>Full-Stack Engineering</h4>
+                <p>Building responsive, accessible web interfaces and performant REST APIs.</p>
+              </div>
+              <div class="summary-card">
+                <span class="summary-card-icon">🔒</span>
+                <h4>Security &amp; Sandboxing</h4>
+                <p>Implementing AST checks, token rotation, and isolated execution runtimes.</p>
+              </div>
+              <div class="summary-card">
+                <span class="summary-card-icon">🤝</span>
+                <h4>Community &amp; Events</h4>
+                <p>Active management member at Apple Developers Group and Manipal InfoSec Team.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info Side Table -->
+          <aside class="about-sidebar">
+            <div class="profile-info-table">
+              <h3 class="table-title">Personal Information</h3>
+              <ul>
+                <li><strong>Full Name:</strong> <span>Khushi Gupta</span></li>
+                <li><strong>Institution:</strong> <span>MIT Manipal, Karnataka</span></li>
+                <li><strong>Degree:</strong> <span>B.Tech in Communication Engineering</span></li>
+                <li><strong>Admission No.:</strong> <span>240953466</span></li>
+                <li><strong>Current CGPA:</strong> <span>8.31 / 10.0</span></li>
+                <li><strong>Hometown:</strong> <span>Delhi, India</span></li>
+                <li><strong>Current City:</strong> <span>Manipal, Karnataka</span></li>
+                <li><strong>Email:</strong> <span>khushigupta4653@gmail.com</span></li>
+                <li><strong>Phone:</strong> <span>(+91) 9315344040</span></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 02</span>
+          <h2 class="section-heading">Education</h2>
+        </div>
+
+        <div class="education-grid">
+          <!-- College Card -->
+          <div class="edu-box">
+            <div class="edu-badge">College Degree</div>
+            <h3 class="edu-name">Manipal Institute of Technology (MIT)</h3>
+            <h4 class="edu-sub">B.Tech in Communication Engineering</h4>
+            <div class="edu-details-row">
+              <span class="edu-location">Manipal, Karnataka</span>
+              <span class="edu-year">2024 – Expected May 2028</span>
+            </div>
+            <div class="edu-score-pill">
+              <strong>Cumulative CGPA:</strong> 8.31 / 10.0
+            </div>
+            <p class="edu-description">
+              Relevant courses: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, 
+              Operating Systems, Computer Networks, and Communication Systems.
+            </p>
+          </div>
+
+          <!-- School Card -->
+          <div class="edu-box">
+            <div class="edu-badge">School Education</div>
+            <h3 class="edu-name">DLF Public School</h3>
+            <h4 class="edu-sub">Senior Secondary (Class XII) &amp; Secondary (Class X)</h4>
+            <div class="edu-details-row">
+              <span class="edu-location">Delhi NCR, India</span>
+              <span class="edu-year">Completed April 2024</span>
+            </div>
+            <div class="edu-score-dual">
+              <div class="score-chip"><strong>Class XII (CBSE):</strong> 92%</div>
+              <div class="score-chip"><strong>Class X (CBSE):</strong> 97%</div>
+            </div>
+            <p class="edu-description">
+              Completed high school education with strong emphasis on Physics, Chemistry, and Advanced Mathematics with academic distinction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 03</span>
+          <h2 class="section-heading">Professional Experience</h2>
+        </div>
+
+        <div class="experience-card">
+          <div class="exp-header">
+            <div>
+              <span class="exp-period">May 2026 – July 2026 &bull; Remote</span>
+              <h3 class="exp-title">Software Engineering Intern (Full Stack)</h3>
+              <h4 class="exp-org">EmergX (Emerque Platforms Pvt. Ltd.)</h4>
+            </div>
+            <span class="job-tag">Internship</span>
+          </div>
+
+          <div class="exp-body">
+            <ul class="task-list">
+              <li>
+                <strong>AI-Powered Proctoring System:</strong> Designed a pre-interview proctoring module with browser/fullscreen validation, 
+                real-time eye-gaze tracking, violation detection, and camera/screen recording using <code>WebGazer.js</code>, 
+                <code>MediaRecorder API</code>, and <code>WebRTC</code>.
+              </li>
+              <li>
+                <strong>Frontend &amp; Backend Engineering:</strong> Built modular components using <code>React.js</code>, <code>Node.js</code>, 
+                and <code>Express.js</code>, implementing and integrating 8+ REST API endpoints with performance optimizations.
+              </li>
+              <li>
+                <strong>Agile Teamwork:</strong> Collaborated with UI/UX designers and stakeholders across 3 Agile sprints, delivering 5+ responsive 
+                features and resolving 10+ critical issues.
+              </li>
+              <li>
+                <strong>Browser Media Integration:</strong> Coordinated real-time media streams and validation workflows between the browser and backend.
+              </li>
+            </ul>
+
+            <div class="skills-pill-group">
+              <span class="pill">React.js</span>
+              <span class="pill">Node.js</span>
+              <span class="pill">Express.js</span>
+              <span class="pill">WebRTC</span>
+              <span class="pill">MediaRecorder API</span>
+              <span class="pill">WebGazer.js</span>
+              <span class="pill">REST APIs</span>
+              <span class="pill">Agile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 04</span>
+          <h2 class="section-heading">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: PathForge -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <span class="project-category">Full-Stack Web App</span>
+              <h3 class="project-title">PathForge</h3>
+              <p class="project-tagline">Gamified coding platform with LeetCode-style editor and sandboxed code execution.</p>
+            </div>
+
+            <div class="project-box-body">
+              <p class="project-desc">
+                Architected a full-stack platform supporting 3 task types across 6 skill domains. Features real-time XP calculation, 
+                streak tracking, badges, and automated PDF certificate generation.
+              </p>
+
+              <div class="feature-bullets">
+                <p><strong>Security:</strong> 2-layer pipeline combining AST static analysis to block 6+ exploit categories with isolated Node.js VM worker-thread execution.</p>
+                <p><strong>Authentication:</strong> Refresh Token Rotation with reuse detection, session revocation, and MongoDB optimistic concurrency control.</p>
+              </div>
+
+              <div class="project-tech-pills">
+                <span class="pill">React.js</span>
+                <span class="pill">Node.js</span>
+                <span class="pill">Express.js</span>
+                <span class="pill">MongoDB Atlas</span>
+                <span class="pill">Tailwind CSS</span>
+                <span class="pill">Vite</span>
+                <span class="pill">JWT Auth</span>
+                <span class="pill">Node.js VM</span>
+              </div>
+            </div>
+
+            <div class="project-box-footer">
+              <a href="https://github.com/KhushiGupta0104/PathForge" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <span>View on GitHub &rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: AI-Powered Trip Planner -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <span class="project-category">AI &amp; Tool Calling</span>
+              <h3 class="project-title">AI-Powered Trip Planner</h3>
+              <p class="project-tagline">Autonomous multi-tool itinerary planner with Model Context Protocol (MCP).</p>
+            </div>
+
+            <div class="project-box-body">
+              <p class="project-desc">
+                Built an itinerary synthesizer using Google Gemini function calling to autonomously invoke external tools for weather, 
+                places, and hotel availability for multi-step trip planning.
+              </p>
+
+              <div class="feature-bullets">
+                <p><strong>Custom MCP Server:</strong> Exposes 4 standardized trip-planning tools, allowing dynamic real-time replanning based on user inputs.</p>
+                <p><strong>Cloud Storage:</strong> Connected Firebase Authentication and Cloud Firestore for persistent storage of user itineraries.</p>
+              </div>
+
+              <div class="project-tech-pills">
+                <span class="pill">React.js</span>
+                <span class="pill">Tailwind CSS</span>
+                <span class="pill">Google Gemini AI</span>
+                <span class="pill">MCP Protocol</span>
+                <span class="pill">Firebase Firestore</span>
+                <span class="pill">Google Places API</span>
+              </div>
+            </div>
+
+            <div class="project-box-footer">
+              <a href="https://github.com/KhushiGupta0104" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <span>View on GitHub &rarr;</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 05</span>
+          <h2 class="section-heading">Technical Skills</h2>
+        </div>
+
+        <div class="skills-layout">
+          
+          <div class="skill-category">
+            <h3 class="skill-heading">Programming Languages</h3>
+            <ul class="skill-list">
+              <li>C / C++</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript (ES6+)</li>
+              <li>SQL</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-heading">Frameworks &amp; Libraries</h3>
+            <ul class="skill-list">
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Tailwind CSS</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-heading">Databases &amp; Cloud</h3>
+            <ul class="skill-list">
+              <li>MongoDB</li>
+              <li>MongoDB Atlas</li>
+              <li>Firebase Firestore</li>
+              <li>Relational SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-heading">AI &amp; Protocols</h3>
+            <ul class="skill-list">
+              <li>Google Gemini AI</li>
+              <li>LLM Function Calling</li>
+              <li>Model Context Protocol (MCP)</li>
+              <li>Prompt Engineering</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-heading">Developer Tools</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub</li>
+              <li>RESTful APIs</li>
+              <li>JWT Authentication</li>
+              <li>Node.js VM</li>
+              <li>WebRTC &amp; MediaRecorder</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-heading">Core Computer Science</h3>
+            <ul class="skill-list">
+              <li>Data Structures &amp; Algorithms</li>
+              <li>OOP Concepts</li>
+              <li>Database Management (DBMS)</li>
+              <li>Operating Systems</li>
+              <li>Computer Networks</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- POSITIONS OF RESPONSIBILITY (LEADERSHIP) -->
+    <section class="section section-alt" id="responsibilities">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 06</span>
+          <h2 class="section-heading">Positions of Responsibility</h2>
+        </div>
+
+        <div class="roles-list">
+          
+          <div class="role-item">
+            <div class="role-icon">📱</div>
+            <div class="role-info">
+              <div class="role-top">
+                <h3 class="role-title">Management Committee Member</h3>
+                <span class="role-years">2025 – Present</span>
+              </div>
+              <h4 class="role-club">Apple Developers Group (ADG), MIT Manipal</h4>
+              <p class="role-desc">
+                Organized 8+ technical events and developer workshops. Collaborated with cross-functional student teams to improve 
+                developer skills and engagement on campus.
+              </p>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div class="role-icon">🔐</div>
+            <div class="role-info">
+              <div class="role-top">
+                <h3 class="role-title">Management Committee Member</h3>
+                <span class="role-years">2025 – Present</span>
+              </div>
+              <h4 class="role-club">Manipal Information Security Team (MIST), MIT Manipal</h4>
+              <p class="role-desc">
+                Coordinated 5+ technical and cybersecurity initiatives across student teams for planning, technical awareness, and execution.
+              </p>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div class="role-icon">🎪</div>
+            <div class="role-info">
+              <div class="role-top">
+                <h3 class="role-title">Organizing Committee Member</h3>
+                <span class="role-years">2025</span>
+              </div>
+              <h4 class="role-club">Techtatva (MIT Manipal Technical Fest)</h4>
+              <p class="role-desc">
+                Managed hospitality and vendor coordination for MIT Manipal's university-wide technical festival with 1000+ participants.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERESTS & HOBBIES SECTION (RUBRIC REQUIREMENT) -->
+    <section class="section" id="hobbies">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 07</span>
+          <h2 class="section-heading">Interests &amp; Hobbies</h2>
+        </div>
+
+        <div class="hobbies-cards">
+          
+          <div class="hobby-box">
+            <span class="hobby-symbol">🧩</span>
+            <h3 class="hobby-name">Competitive Programming</h3>
+            <p class="hobby-text">
+              Active problem solving on LeetCode with <strong>180+ questions solved</strong>, focusing on trees, recursion, graphs, and dynamic programming.
+            </p>
+          </div>
+
+          <div class="hobby-box">
+            <span class="hobby-symbol">🛡️</span>
+            <h3 class="hobby-name">Security &amp; Sandboxing</h3>
+            <p class="hobby-text">
+              Learning about secure runtime environments, AST-level code parsing, defense-in-depth, and cybersecurity CTF writeups.
+            </p>
+          </div>
+
+          <div class="hobby-box">
+            <span class="hobby-symbol">👥</span>
+            <h3 class="hobby-name">Tech Community Workshops</h3>
+            <p class="hobby-text">
+              Mentoring juniors, assisting in technical workshops at ADG and MIST, and participating in hackathons.
+            </p>
+          </div>
+
+          <div class="hobby-box">
+            <span class="hobby-symbol">🏸</span>
+            <h3 class="hobby-name">Badminton &amp; Strategy Games</h3>
+            <p class="hobby-text">
+              Enjoying competitive badminton matches on campus and solving chess/logic puzzles in leisure time.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT DETAILS & FORM SECTION -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">Section 08</span>
+          <h2 class="section-heading">Contact Me</h2>
+        </div>
+
+        <div class="contact-wrapper">
+          
+          <!-- Contact Details Cards -->
+          <div class="contact-info-list">
+            
+            <div class="contact-info-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <span class="contact-type">Email Address</span>
+                <a href="mailto:khushigupta4653@gmail.com" class="contact-link">khushigupta4653@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <span class="contact-type">Phone Number</span>
+                <a href="tel:+919315344040" class="contact-link">(+91) 9315344040</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <span class="contact-type">Current Location</span>
+                <span class="contact-plain">Manipal, Karnataka / Delhi, India</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon">🔗</span>
+              <div>
+                <span class="contact-type">Social &amp; Profiles</span>
+                <div class="contact-social-links">
+                  <a href="https://github.com/KhushiGupta0104" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                  <a href="https://linkedin.com/in/khushigupta4653" target="_blank" rel="noopener noreferrer">LinkedIn &rarr;</a>
+                  <a href="https://leetcode.com/u/khushigupta4653/" target="_blank" rel="noopener noreferrer">LeetCode &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pure HTML Contact Form (Uses Native mailto action - No JS needed) -->
+          <div class="contact-form-container">
+            <h3 class="form-heading">Send a Message</h3>
+            <p class="form-subtext">Clicking send will open your default email client with your message.</p>
+
+            <form action="mailto:khushigupta4653@gmail.com" method="post" enctype="text/plain" class="html-form">
+              <div class="form-row">
+                <label for="userName">Name</label>
+                <input type="text" id="userName" name="Sender Name" placeholder="Your Name" required>
+              </div>
+
+              <div class="form-row">
+                <label for="userEmail">Email</label>
+                <input type="email" id="userEmail" name="Sender Email" placeholder="Your Email Address" required>
+              </div>
+
+              <div class="form-row">
+                <label for="userSubject">Subject</label>
+                <input type="text" id="userSubject" name="Subject" placeholder="e.g. Project Query or Opportunity" required>
+              </div>
+
+              <div class="form-row">
+                <label for="userMessage">Message</label>
+                <textarea id="userMessage" name="Message" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">Submit Message</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-meta">
+        <p><strong>Khushi Gupta</strong> &bull; Web Technology Personal Profile Webpage</p>
+        <p>Built with pure semantic HTML5 &amp; CSS3. Zero JavaScript dependencies.</p>
+      </div>
+      <div class="footer-actions">
+        <a href="#hero" class="back-to-top">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
